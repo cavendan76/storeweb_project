@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/c2e5bd40b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Store Web</title>
+  </head>
+  <body>
+    <main class="container">
+      <nav class="navbar">
+        <img src="assets/images/hamburger.svg" class="escudo" alt="escudo" />
+        <span class="titulo">HSV TIENDA OFICIAL</span>
+        <i class="fa-solid fa-bars fa-xl" style="color: #1d2f4e"></i>
+      </nav>
+      <aside class="aside">
+        <div class="aside_categoria">Inicio</div>
+        <div class="aside_categoria">Catalogo</div>
+        <div class="aside_categoria">Ofertas</div>
+        <div class="aside_categoria">Contacto</div>
+      </aside>
+      <section class="section">
+        <div class="menu">
+          <p>Ordenar Por:</p>
+          <form id="make_checkbox_select">
+            <select name="seleccion" style="width: 100%">
+              <option data-count="2" value="Precio">Precio</option>
+              <option data-count="3" value="Marca">Marca</option>
+              <option data-count="4" value="Categoria">Categoria</option>
+            </select>
+          </form>
+        </div>
+        <div class="articulos">
+          <div class="card">
+            <img src="assets/images/jersey.jpg" class="imagenes" alt="jersey" />
+            <p class="card_articulo">Camiseta Hombre Local 2023</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/jersey2.jpg"
+              class="imagenes"
+              alt="jersey"
+            />
+            <p class="card_articulo">Camiseta Dama Visitante 2023</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/pullover.jpg"
+              class="imagenes"
+              alt="PullOver"
+            />
+            <p class="card_articulo">PullOver HSV "BRODERICK"</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+          <div class="card">
+            <img src="assets/images/medias.jpg" class="imagenes" alt="Medias" />
+            <p class="card_articulo">HSV Medias "SV 1982 AWAY"</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/medias2.jpg"
+              class="imagenes"
+              alt="Medias2"
+            />
+            <p class="card_articulo">HSV Medias Deportivas</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+          <div class="card">
+            <img src="assets/images/gorro.jpg" class="imagenes" alt="Gorro" />
+            <p class="card_articulo">HSV New Era Gorro Invierno"</p>
+            <input type="button" class="boton" value="Ver Más" />
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="logos">
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa-brands fa-instagram fa-xl"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook fa-xl"></i
+          ></a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fa-brands fa-twitter fa-xl"></i
+          ></a>
+        </div>
+        <span class="pie">Atención al cliente (600) 535 88 53</span>
+      </footer>
+    </main>
+  </body>
+</html>
